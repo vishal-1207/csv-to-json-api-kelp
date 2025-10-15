@@ -99,26 +99,3 @@ How to Run
     * Check the server console where you ran npm start. You will see log messages indicating the progress of batch insertions.
 
     * Once the process is complete, the final age distribution report will be printed in the console.
-
-Project Structure
------------------
-
-```
-csv-to-json-api/
-├── config/
-│   └── db.config.js               # PostgreSQL connection setup  
-├── controllers/  
-│   └── upload.controller.js       # Handles API request/response logic
-├── data/  
-│   └── data.csv                   # Sample CSV data file  
-├── routes/  
-│   └── upload.routes.js           # Defines the API endpoint  
-├── services/  
-│   ├── csvProcessor.service.js    # Core logic for processing and insertion  
-│   └── report.service.js          # Logic for generating the report  
-├── utils/  
-│   └── json.utility.js            # Dot-notation to nested JSON utility  
-├── .env                           # Environment variables  
-├── index.js                       # Main server entry point  
-└── package.json
-```
