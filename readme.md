@@ -33,7 +33,8 @@ Setup Instructions
 1. Clone this repo on your machine, using git clone:
 
 ```bash
-git clone cd csv-to-json-api
+git clone 
+cd csv-to-json-api
 ```
 
 2. Install dependencies.
